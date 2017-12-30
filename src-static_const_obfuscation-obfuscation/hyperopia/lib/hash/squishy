@@ -1,0 +1,7 @@
+Main "md5stripped.lua"
+
+Module "numberlua.numberlua" "numberlua/numberlua.lua"
+
+Option "minify-level" "full"
+
+Output "out.lua"
