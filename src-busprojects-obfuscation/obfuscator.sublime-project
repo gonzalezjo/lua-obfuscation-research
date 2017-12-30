@@ -1,0 +1,14 @@
+{
+	"build_systems":
+	[
+		{
+			"name": "ObfuscatorBuild2",
+			"shell_cmd": "luajit neXtFuscator.lua",
+			"working_dir": "${project_path}"
+		}
+	],
+	"settings":
+	{
+		"tab_size": 4
+	}
+}

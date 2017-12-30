@@ -1,0 +1,4 @@
+-- concerns
+	-- edge cases
+		-- running into lua max local count 
+		-- constant pooling of globals? 

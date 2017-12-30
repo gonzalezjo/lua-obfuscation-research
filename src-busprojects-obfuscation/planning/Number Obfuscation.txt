@@ -1,0 +1,3 @@
+Randomness 
+	- tonumber with various bases
+	- not using tonumber at all, and relying on lua to cast things for me 
