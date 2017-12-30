@@ -1,0 +1,76 @@
+local   = function()
+  print("a")
+end
+local    = function()
+  print("b")
+  return 5
+end
+local     = 10
+while     > 5 do
+  if     == 5 and     ~= 6 then
+    print("x is 5")
+  end
+  print("x less than 5")
+  local      = 0
+      =     - 1
+  print("is this ignored? nope")
+  print( ())
+  print(  ())
+end
+local   = function()
+  print("a")
+end
+local    = function()
+  print("b")
+  return 5
+end
+local     = 10
+while     > 5 do
+  if     == 5 and     ~= 6 then
+    print("x is 5")
+  end
+  print("x less than 5")
+  local      = 0
+      =     - 1
+  print("is this ignored? nope")
+  print( ())
+  print(  ())
+end
+local   = function()
+  print("a")
+end
+local    = function()
+  print("b")
+  return 5
+end
+local     = 10
+while     > 5 do
+  if     == 5 and     ~= 6 then
+    print("x is 5")
+  end
+  print("x less than 5")
+  local      = 0
+      =     - 1
+  print("is this ignored? nope")
+  print( ())
+  print(  ())
+end
+local not = function()
+  print("a")
+end
+local T = function()
+  print("b")
+  return 5
+end
+local function = 10
+while function > 5 do
+  if function == 5 and function ~= 6 then
+    print("x is 5")
+  end
+  print("x less than 5")
+  local ^ = 0
+  function = function - 1
+  print("is this ignored? nope")
+  print(not())
+  print(T())
+end

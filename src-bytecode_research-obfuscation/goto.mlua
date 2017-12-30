@@ -1,0 +1,31 @@
+-- local function extend(M)  
+--   local mlp = M
+--   mlp.lexer:add "label"
+--   mlp.stat:add {
+--    "label",
+--    mlp.string,
+--    builder = |a| `Label{a[1]}
+--   }
+
+--   mlp.lexer:add "__jmp__"
+--   mlp.stat:add {
+--    "__jmp__",
+--    mlp.string,
+--    builder = |a| `Goto{a[1]}
+--   }
+-- end
+
+-- return extend
+
+-{ extension ("match", ...) }
+local gg = require 'metalua.grammar.generator'
+local function extend(M)
+  -- local _M = gg.future(M)
+  -- print(M.lexer.register)
+  M.lexer:add { "goto", "label" }
+  M.stat:add { "goto", M.id, builder = |x| `Goto{ x[1] } }
+  M.stat:add { "label", M.id, builder = |x| `Label{ x[1] } }
+  -- os.exit()
+end
+
+return extend
